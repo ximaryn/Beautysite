@@ -89,10 +89,15 @@ h1 {
 .box {
     max-width: 100%;
     margin-left: 5px;
+
 }
 .card__wrapper {
     padding: 15px;
     float: left;
+
+}
+.row {
+    margin-right: -11px;
 }
 
 .card {
