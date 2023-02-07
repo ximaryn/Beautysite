@@ -24,4 +24,6 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
 }
-
+.col-3 {
+    width: 25%;
+}

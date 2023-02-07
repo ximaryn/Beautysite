@@ -73,6 +73,8 @@ h1 {
     white-space: pre-line;
 }
 .title {
+    width: 100%;
+    display: block;
     float: left;
     margin-left: 19px ;
     margin-top: 56px;
@@ -83,4 +85,117 @@ h1 {
     color: #000000;
     font-family: 'Roboto', sans-serif;
 
+}
+.box {
+    max-width: 100%;
+    margin-left: 5px;
+}
+.card__wrapper {
+    padding: 15px;
+    float: left;
+}
+
+.card {
+    background: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.btn1 {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    cursor:pointer;
+    width: 130px;
+    height: 35px;
+    background: #F13C6E;
+    border-radius: 30px;
+    border: 0px ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+.description>p {
+    margin:0;
+    padding-top: 15px;
+    padding-right: 31px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+.price__block>p {
+    padding-right: 1px;
+    padding-top: 13px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.pink__box {
+    float: left;
+    width: 100%;
+    margin-top: 84px;
+    margin-bottom: 100px;
+    padding-left: 18px;
+}
+.pink__block {
+    width: 540px;
+    height: 212px;
+    margin-right: 1px;
+    background: #F13C6E;
+    float: left;
+    padding-left: 40px;
+ }
+.title2>p {
+    margin-bottom: 0;
+    margin-top: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.pink__letter {
+    margin-top: 5px;
+    width: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+ }
+.email {
+    margin-bottom: 35px;
+    margin-top: 12px;
+    padding-left: 25px;
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 0px;
+}
+.left {
+
+}
+.right {
+
+    float: right;
 }
