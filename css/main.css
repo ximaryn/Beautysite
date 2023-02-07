@@ -147,7 +147,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 .pink__box {
-    float: left;
+    display: inline-block;
     width: 100%;
     margin-top: 84px;
     margin-bottom: 100px;
@@ -193,9 +193,54 @@ h1 {
     border: 0px;
 }
 .left {
-
+    float: left;
 }
-.right {
-
+.right__list {
+    padding-top: 36px;
+    margin-right: 45px;
     float: right;
 }
+.pink__block2 {
+    width: 540px;
+    height: 212px;
+    float: right;
+    background: #F13C6E;
+    margin-right: 1px;
+    padding-left: 40px;
+}
+.map__btn {
+    margin-top: 12px;
+    width: 170px;
+    height: 35px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+.right__truck {
+    padding-top: 55px;
+    margin-right: 45px;
+    float: right;
+}
+.img__wrapper {
+    padding: 0.5px;
+    float: left;
+}
+.magazine__box {
+    display: inline-block;
+    max-width: 100%;
+    padding-left:17px ;
+    margin-top: -5px;
+}
+.magazine__block {
+    background: #ffffff;
+    padding: 35px 65px 30px 63px;
+}
+
